@@ -1,128 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <script src="port.js"></script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="circletype.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
 
-  <link rel="stylesheet" type="text/css" href="port.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>.Dev</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>www.DeepakMeena.com</title>
 </head>
+
 <body>
 
-  <section class="mainpage" id="home" >
-   <div class="blur">
-    <header class="navbar">
-     
-      <ul>
-       <li> <a href="#">Home</a>     </li>
-       <li> <a href="#about">About</a>   </li>
-       <li> <a href="#project">Project</a>     </li>
-       <li> <a href="blog.html" target="_blank">BLOG</a>      </li>
-      </ul>
-     
+
+
+    <header class='navbar'>
+
+        <div class='navbar_containt'>
+            <h2> <a class='link logo' href='/'> Deepak </a> </h2>
+            <!-- <h2> <a class='link' href='#work'> Work </a> </h2> -->
+            <h2> <a class='link' href='/about'> About </a> </h2>
+            <!-- <h2> <a class='link' href='#email'> Contect </a> </h2> -->
+        </div>
+
+        <div class='mobile_navbar'>
+            <h2> <a class='link' href=''> ||| </a> </h2>
+        </div>
     </header>
-    
-    <div class="center">
-    <h2 class="text">Hi,</h2> 
-    <h2 class="text">I'm <span>Deepak</span> </h2></h2>
-    <div class="icon">
-    <a href="https://www.facebook.com/profile.php?id=100017181242359" target="_blank"><img src="images/facebook-64.png"></a>
-    <a href="https://www.instagram.com/memar_sahab/" target="_blank"><img src="images/instagram-64.png"></a>
-    <a href="https://www.linkedin.com/in/deepak-meena-509785191/" target="_blank"><img src="images/linkedin3.png"></a>
-    <a href="https://github.com/MEMARSAHAB" target="_blank"><img src="images/github-64.png"></a>
-    </div>
-    </div>
-    </div>
-  </section>
-<!--main page end-->
 
-<div class="bpage">
-
-  <h2 class="aboutheading">About me</h2>
-  <h3 class="aboutheading2">Who Am I</h3>
-
-  <div class="page2" id="about">
-
-    <div class="aboutme aboutme1">
-      
-       <p>My name is Deepak i'm currently pursuing my bachelor's degree in the field of <i>computer science and engineering</i> from <a href="https://iiitl.ac.in/" target="_blank"><b>Indian Institute of Information Technology ,Lucknow</b></a>.<br>“It is better to start small than to not start at all because you are waiting to be perfect with your skills. The truth is that you can never achieve perfection in life. Even the greatest man on earth is still incapable of doing so. The ultimate goal is to start now and grow as you go.”</p>
-        
+    <div class='spinner'>
+        <span id='spinner_text'> scroll to explore . scroll to explore .</span> 
     </div>
 
-    <div class="aboutme aboutme2">
 
-        <img src="images/maindm.png">
- 
-    </div> 
-
-  </div>
-
-</div>
-
-
-<h3 class="aboutheading2">What can i do</h3>
-<div class="page3 ">
-  
-  <div class="frontend skill ">
-        <img src="images/frontend2.png">
-
-        <h3>Frontend Development</h3>
-        <p>currently working to make best out come from it(green tick!). </p>
-  </div>
-
-  <div class="programming skill">
-        <img src="images/laptop1.png">
-
-        <h3>Programming</h3>
-        <p>I'm not a great programmer; I'm just a good programmer with great habits.</p>
-  </div>
-
-  <div class="backend skill">
-        <img src="images/nodejs1.png">
-
-        <h3>Backend Development</h3>
-        <p>currently working to make best out come from it(green tick!). </p>
-  </div>
-</div>
-
-
-<section class="projects" id="project">
-    <h2 class="projectheading">Projects</h2>
-    <h3 class="projectheading2">What I did</h3>
-  
-  <div class="flexcontainer">
-    <div class="fleximg"><img src="project/oxymess.gif"></div>
-    <div class="flexbox">   <h2>A mess webpage  <span>On going work available on my <a href="https://github.com/MEMARSAHAB">github id.</a> </span></h2>  </div>
-    
-    <div class="flexbox">  <h2>A simple Ambulance call/book webpage  <span>Only frontend, available on my <a href="https://github.com/MEMARSAHAB">github id.</a> </span></h2>  </div>    
-    <div class="fleximg"><img src="project/oxyhelp.gif"></div>
-
-    <div class="fleximg"><img src="project/loginpage.png" width="50%" height="100%"><img src="project/aboutpage.png" width="50%" height="100%"></div>
-    <div class="flexbox">  <h2>Other some boring stuff  <span> available on my <a href="https://github.com/MEMARSAHAB">github id.</a></span>This Webpage also available. </h2>  </div>
-  </div>  
-
-</section>
+    <section class='landing_page'>
+            <div class='intro_row' >
+                <h2 class='intro_main_text row1' >Creative</h2>
+            </div>
+            <div class='intro_row'>
+                <h2 class='intro_main_text row2'>Developer</h2>
+                <p class='intro_small_text'>AND</p>
+            </div>
+            <div class='intro_row'>
+                <h2 class='intro_main_text row3'>HumanBeing</h2>
+            </div>
+    </section>
 
 
 
-<footer class="footer">
- 
-  <div class="links">
-    <h2>  <a href="#home">Home </a> <b>|</b> 
-     <a >Resume </a> <b>|</b>
-     <a href="gallery.html" target="_blank">Gallery</a>  </h2>
-    <p>@2020 Devloped by Deepak</p>
-  </div>
-
-</footer>
+    <section class='small_about_me'>
+        <p class='about_me_text'>I always strive to develop</p>
+        <p class='about_me_text'>unique design solutions</p>
+        <p class='about_me_text'>and improve the</p>
+        <p class='about_me_text'>quality of life.<img src='./assets/icons/arrow3.png' /></p>
+    </section>
 
 
 
-  
+    <section class='work_section' id='work'>
+
+        <div class='work_section_title'>
+            <h2 class='work_section_title_text'>Some of</h2>
+            <h2 class='work_section_title_text'>my selected</h2>
+            <h2 class='work_section_title_text last_word_animate'>works 
+                <span class='last_word_animation'>
+                        <svg data-v-71038956="" fill="none" preserveAspectRatio="none" viewBox="0 0 459 315" xmlns="http://www.w3.org/2000/svg" class="smooth">
+                            <path data-v-71038956="" d="m37.9827 67.401c62.6553-2.3532 192.4733 14.5084 
+                            225.7033 23.4123 33.229 8.9039 171.913 46.4967 172.688 91.1327.775 44.637-98.087 
+                            87.949-209.121 77.685s-199.4422-61.075-200.151-105.026c-.7089-43.951 71.6094-82.6545 
+                            164.085-94.0772 92.476-11.4227 253.793 31.4917 204.039 118.4652" 
+                            stroke="#156777" stroke-width="3" style="stroke-dashoffset: 0; stroke-dasharray: none;">
+                            </path>
+                        </svg>
+                </span>
+            </h2>
+        </div>
+
+        <div class="cursor"></div>
+        <div class="wrapper">
+            <div class="project-list">
+                <a class="project p-1" href='https://github.com/MEMARSAHAB/Buddy-Mobile' target='_blank'>
+                    <div class="project-title">
+                        <img class='project_logo' src='./assets/icons/nav-decoration.svg' />
+                        <h1>Buddy App</h1>
+                    </div>
+                    <img class="project_link" src='./assets/icons/arrow3.png' /> 
+                    <div class="project-overlay"></div>
+                </a>
+                <a class="project p-2" href='https://github.com/MEMARSAHAB/IIITL_Admission_Portal' target='_blank'>
+                    <div class="project-title">
+                        <img class='project_logo' src='./assets/icons/nav-decoration.svg' />
+                        <h1>IIITL Admission Portal</h1>
+                    </div>
+                    <img class="project_link" src='./assets/icons/arrow3.png' />
+                    <div class="project-overlay"></div>
+                </a>
+                <a class="project p-3" href='https://github.com/MEMARSAHAB/Code19' target='_blank'>
+                    <div class="project-title">
+                        <img class='project_logo' src='./assets/icons/nav-decoration.svg' />
+                        <h1>Code19</h1>
+                    </div>
+                    <img class="project_link" src='./assets/icons/arrow3.png' />
+                    <div class="project-overlay"></div>
+                </a>
+                <a class="project p-4" href='https://github.com/MEMARSAHAB/Axios-Web-Demo' target='_blank'>
+                    <div class="project-title">
+                        <img class='project_logo' src='./assets/icons/nav-decoration.svg' />
+                        <h1>Axios 2020</h1>
+                    </div>
+                    <img class="project_link" src='./assets/icons/arrow3.png' />
+                    <div class="project-overlay"></div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class='contect_section'>
+        <div class='lets_connect'>
+            <h2 class='lets_connect_text l_01'> <span>Say</span> a simple</h2>
+            <h2 class='lets_connect_text l_02'>Hello!</h2>
+            <h2 class='lets_connect_text'> <img src='./assets/images/self.jpg' /> </h2>
+            <h2 class='lets_connect_text l_03'>Let's collaborate &</h2>
+            <h2 class='lets_connect_text l_04'>Create something awesome.</h2>
+        </div>
+    </section>
+
+    <section class='hidden_section'>
+        <div class='bottom_contect_section'>
+            <h2 class='idea_text'>HAVE AN IDEA?</h2>
+            <h2 class='email_text' onclick='copyToClipBoard()'> <span class='email_extra_text'>Drop an email : </span>  memarsahab@gmail.com</h2>
+
+            <div class='bottom_social_btns'>
+                <h2> <a class='social_btns_text' href='https://www.instagram.com/_deep.dev/' target='_blank'> Instagram </a> </h2>
+                <h2> <a class='social_btns_text' href='https://www.linkedin.com/in/deepdev/' target='_blank'> Linkedin </a> </h2>
+                <h2> <a class='social_btns_text' href='https://github.com/MEMARSAHAB' target='_blank'> Github </a> </h2>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- scripts -->
+    <script src="./index.js"></script>
+
 </body>
 </html>
