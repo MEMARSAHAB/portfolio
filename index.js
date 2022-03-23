@@ -1,3 +1,9 @@
+console.log('%cHiiii  😎 😎 😎 !', 'color: blue; font-size: 20px');
+console.log('%cNothing special here.', 'color: blue; font-size: 20px');
+console.log('%cWant to know more go and checkout', 'color: blue; font-size: 20px');
+console.log('%chttps://github.com/MEMARSAHAB', 'color: blue; font-size: 22px');
+console.log('%chttps://www.linkedin.com/in/deepdev/', 'color: blue; font-size: 25px');
+
 var $cursor = $('.cursor'),
   $overlay = $('.project-overlay');
 

@@ -415,96 +415,23 @@ html,body{
 
 
 
-/* 
-@media only screen and (max-width: 800px){
-    .intro_main_text{
-        font-size: 150px;
-        line-height: 130px;
-    }
-    .work_section_title_text{
-        font-size: 120px;
-    }
-    .email_text{
-        font-size: 40px;
-    }
-}
-
-@media only screen and (max-width: 700px){
-    .intro_main_text{
-        font-size: 130px;
-        line-height: 110px;
-    }
-    .work_section_title_text{
-        font-size: 90px;
-    }
-    .email_text{
-        font-size: 30px;
-    }
-}
-
 @media only screen and (max-width: 500px){
     .intro_main_text{
-        font-size: 100px;
-        line-height: 80px;
-    }
-    .work_section_title_text{
-        font-size: 60px;
-    }
-    .work_section_title_back{
-        font-size: 35px;
-    }
-    .email_text{
-        font-size: 25px;
-    }
-    .top_left_text{
-        font-size: 70px;
-        line-height: 70px;
+        font-size: 20vw;
     }
     .about_me_text{
-        font-size: 25px;
-        font-weight: 500;
-    }
-}
-
-@media only screen and (max-width: 370px){
-    .intro_main_text{
-        font-size: 80px;
-        line-height: 80px;
+        font-size: 8vw;
     }
     .work_section_title_text{
-        font-size: 50px;
+        font-size: 15vw;
+    }
+    .lets_connect_text{
+        font-size: 12vw;
+    }
+    .idea_text{
+        font-size: 12vw;
     }
     .email_text{
-        font-size: 30px;
-    }
-    .top_left_text{
-        font-size: 60px;
-        line-height: 60px;
-    }
-    .about_me_text{
-        font-size: 25px;
-        font-weight: 500;
+        font-size: 5vw;
     }
 }
-
-@media only screen and (max-width: 290px){
-    .intro_main_text{
-        font-size: 50px;
-        line-height: 50px;
-    }
-    .work_section_title_text{
-        font-size: 40px;
-    }
-    .email_text{
-        font-size: 20px;
-    }
-    .top_left_text{
-        font-size: 50px;
-        line-height: 50px;
-    }
-    .about_me_text{
-        font-size: 20px;
-        font-weight: 500;
-    }
-}
- */
